@@ -8,6 +8,12 @@
 
 }
 
+.sticky{
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
 
 .green{
 	background-color: green;
@@ -37,7 +43,7 @@
 
 
 li{
-	padding: 25px 25px;
+	padding: 10px 10px;
 }
 
 a{
@@ -54,6 +60,10 @@ a{
 	align-items: center;
 	justify-content: center;
 	height: 50vh;
+}
+
+.cover{
+	width: 20rem;
 }
 
 /* grid*/
